@@ -4,7 +4,10 @@ Este projeto implementa um modelo de classificação hierárquica encadeada (cha
 
 ## Descrição
 
-O modelo é treinado para prever categorias em 4 níveis sequenciais, onde a saída de cada nível alimenta o próximo. Isso para melhorar a classificação.
+O modelo é treinado para prever categorias em 4 níveis sequenciais.
+Ele trabalha sobre uma base de treinamento, dela colunas "relevantes" para a classificação são unidas em uma única frase que é alocada em uma nova coluna.
+A partir dessa "frase", o modelo pode traçar relações entre as palavras que aparecem nessa frase e as classificações (lvl1, lvl2, lvl3 e lvl4).
+É importante ressaltar que a classificação de um nível afeta a classificação do nível posterior a ele.
 
 ## Estrutura do Projeto
 
