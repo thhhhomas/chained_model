@@ -15,9 +15,10 @@ O modelo é treinado para prever categorias em 4 níveis sequenciais, onde a sa�
 ### Como usar o projeto
 
 1. Clone o repositório
-
+  ``` bash
   git clone https://github.com/thhhhomas/chained_model.git
   cd chained_model
+  ```
 
 2. Crie e ative o ambiente virtual
 
