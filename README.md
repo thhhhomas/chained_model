@@ -36,7 +36,7 @@ O modelo é treinado para prever categorias em 4 níveis sequenciais, onde a sa�
    pip install -r requirements.txt
 
 
-⚠️ **Observação:**  
+## ⚠️ **Observação:**  
 > Certifique-se de adaptar o caminho para o arquivo `BD_TREINAMENTO.xlsx` no script.  
 > Além disso, revise os nomes das colunas utilizadas na base (`aut_`, `id_`, `op_`, `cen_`, `pro_`, `cod_`, `obs_`, `lvl1`, `lvl2`, `lvl3`, `lvl4`) para garantir que correspondem aos nomes reais presentes no seu arquivo.  
 > Qualquer divergência pode causar erros na leitura ou no treinamento do modelo.
