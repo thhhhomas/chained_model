@@ -15,6 +15,7 @@ O modelo é treinado para prever categorias em 4 níveis sequenciais, onde a sa�
 ### Como usar o projeto
 
 1. Clone o repositório
+  
   ``` bash
   git clone https://github.com/thhhhomas/chained_model.git
   cd chained_model
@@ -22,20 +23,26 @@ O modelo é treinado para prever categorias em 4 níveis sequenciais, onde a sa�
 
 2. Crie e ative o ambiente virtual
 
-   - Linux
+  - Linux/macOS
+  
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
 
-     python3 -m venv venv
-     source venv/bin/activate
-
-   - Windows
-
-     python -m venv venv
-     venv\Scripts\activate
+  - Windows
+  
+    ```cmd
+    python -m venv venv
+    venv\Scripts\activate
+    ```
 
 3. Instalar dependências
 
-   pip install -r requirements.txt
-
+  ```bash
+  pip install -r requirements.txt
+  ```
+  
 
 ## ⚠️ **Observação:**  
 > Certifique-se de adaptar o caminho para o arquivo `BD_TREINAMENTO.xlsx` no script.  
